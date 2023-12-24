@@ -1,8 +1,12 @@
-function Header() {
+function Header({ title, bgColor, fColor }) {
+  const headerStyle = {
+    backgroundColor: bgColor,
+    color: fColor,
+  }
   return (
     <>
-      <header>
-        <h2>Feedback UI</h2>
+      <header style={headerStyle}>
+        <h2>{title}</h2>
       </header>
     </>
   )

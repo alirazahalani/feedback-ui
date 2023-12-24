@@ -5,7 +5,11 @@ function App() {
   return (
     <>
       <div className='container'>
-        <Header title='Feedback UI..' />
+        <Header
+          title='Feedback UI'
+          bgColor='pink'
+          fColor='black'
+        />
       </div>
     </>
   )
